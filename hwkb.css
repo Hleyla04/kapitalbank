@@ -33,11 +33,11 @@
         
         }
 
-        p {
+        /* p {
             font-size: 20px;
             margin: 5px;
             text-align: center; 
-        }
+        } */
 
         nav {
             align-items: center; 
@@ -341,4 +341,119 @@
         }
     
 
+
+       
+        .section{
+            display: flex;
+            margin-top: 5px;
+        }
+
+        .section_online {
+            background-color: #e8ecf1;
+            display: flex;
+            margin-right: 30px;
+            width: 1200px;
+            height: 280px;
+        }
+
+        .section_online_text{
+            font-weight: 400px;
+            margin-left: 200px;
+        }
         
+        .section_online_img{
+            margin-right: 50px;
+            margin-top: -20px;
+        }
+        
+        .pay{
+            display: block;
+            color: #ef3e42;
+            margin-top: 80px;
+        } 
+
+        .section_pearson{
+            background-color: #ef3e42;
+            margin-left: 10px;
+            display: flex;
+            width: 1200px;
+            height: 280px;
+        }
+
+        .section_pearson_text {
+           font-weight: 400px;
+           margin-left: 59px;
+           color: white;
+        }
+
+        .more{
+            display: block;
+            color: f45369;
+            margin-top: 40px;
+        } 
+
+        .section_pearson_img{
+            margin-right: 169px;
+            margin-top: 55px;
+        }
+
+        .section_news{
+            background-color: #e8ecf1;
+            margin-top: 40px;
+            padding: 40px;
+
+        }
+
+        .section_news_nav{
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .news_text{
+            display: flex;
+            margin-left: 80px;
+
+
+        }
+        .news_first{
+            display: flex;
+        }
+
+        .news_second{
+            display: flex;
+        }
+
+        .news_third{
+            display: flex;
+        }
+
+        .news_first_circle {
+            background-color: #e8ecf1;
+            border: 1px solid  #ef3e42;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            margin-left: 100px;
+        }
+
+        .news_second_circle {
+            background-color: #e8ecf1;
+            border: 1px solid  #ef3e42;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            margin-left: 60px;
+        }
+
+        .news_third_circle {
+            background-color: #e8ecf1;
+            border: 1px solid  #ef3e42;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            margin-left: 60px
+        }
+
+    
